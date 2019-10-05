@@ -1,0 +1,22 @@
+/*
+ * your comment header here
+ */
+
+footer{
+    background: #bdd7ff;
+}
+
+.nav-section{
+    padding-top: 10px;
+    height: 60px;
+    background: #5681c4;
+}
+
+.body-div{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.centered{
+    text-align: center;
+}
