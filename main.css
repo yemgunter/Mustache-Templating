@@ -3,15 +3,15 @@
  */
 
 footer{
-    background: #bdd7ff;
+    background: #e2d1dd;
 }
 
 header.page-header {
     background: no-repeat url(/media/yemgunter-logo.png);
     display: flex;
-    height: 362px;
+    height: 94px;
     align-items: center;
-    color: #720072;
+    color: #fff;
 }
 
 .nav-section{
