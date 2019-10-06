@@ -1,4 +1,18 @@
 
-.idea/workspace.xml
+#this is a .gitignore file
+
+ # ignore everything
+ *
+ .idea/workspace.xml
 .DS_Store
 *.xml
+
+# unignore everyting I want to track
+!*.html
+!*.css
+!*.js
+!*.php
+!*.png
+!*.jpg
+!*.mp3
+!*.gif
