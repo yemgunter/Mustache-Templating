@@ -6,6 +6,16 @@ footer{
     background: #bdd7ff;
 }
 
+header.page-header {
+    background: no-repeat left/cover url(/media/examples/puppy-header-logo.jpg);
+    display: flex;
+    height: 120px;
+    min-width: 120px;
+    align-items: center;
+    color: #fff;
+}
+
+
 .nav-section{
     padding-top: 10px;
     height: 60px;
@@ -19,4 +29,27 @@ footer{
 
 .centered{
     text-align: center;
+}
+ #form-div {
+     margin: 40px auto;
+ }
+
+ .form-input {
+     width: 100%;
+ }
+
+ .input-div {
+     margin-bottom: 10px;
+ }
+
+ .form-container {
+     text-align: center;
+     margin: 10px auto;
+     width: 100%;
+ }
+
+@media (min-width: 600px) {
+    .form-container{
+            width: 60%;
+    }
 }
