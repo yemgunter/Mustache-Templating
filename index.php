@@ -1,6 +1,9 @@
 <?php
 /*
- * your comment header here
+ * Name: Yolanda Gunter
+ * Assignment: Coding 05
+ * Purpose: Templating & Making a 3+ Page Website
+ * Notes: Learning then implementing Mustache to create templates.
  */
 
 //this will load the mustache template library
