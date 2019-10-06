@@ -1,4 +1,20 @@
+#this is a .gitnore file
+
+# ignore everything
+*
+.DS_Store
+*.xml
 .php_cs.cache
 composer.lock
 mustache.php
 vendor
+
+# unignore everything I want to track
+!*.html
+!*.css
+!*.js
+!*.php
+!*.png
+!*.gif
+!*.jpg
+!*.mp3
