@@ -7,19 +7,17 @@ footer{
 }
 
 header.page-header {
-    background: no-repeat left/cover url(/media/examples/puppy-header-logo.jpg);
+    background: no-repeat url(/media/yemgunter-logo.png);
     display: flex;
-    height: 120px;
-    min-width: 120px;
+    height: 362px;
     align-items: center;
-    color: #fff;
+    color: #720072;
 }
-
 
 .nav-section{
     padding-top: 10px;
     height: 60px;
-    background: #5681c4;
+    background: #720072;
 }
 
 .body-div{
