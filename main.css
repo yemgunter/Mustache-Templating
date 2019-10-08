@@ -48,7 +48,25 @@ header.page-header {
      margin: 10px auto;
      width: 100%;
  }
+/* This is the CSS for mobile devices. i.e. it is mobile-first */
 
+#form-div {
+    margin: 40px auto;
+}
+
+.form-input {
+    width: 100%;
+}
+
+.input-div {
+    margin-bottom: 10px;
+}
+
+.form-container{
+    text-align: center;
+    margin: 10px auto;
+    width: 100%
+}
 @media (min-width: 600px) {
     .form-container{
             width: 60%;
