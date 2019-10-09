@@ -18,6 +18,8 @@ header.page-header {
 }
 
 .nav-section{
+    display: block;
+    transition: .3s background-color;
     padding-top: 10px;
     height: 60px;
     background: #720072;
