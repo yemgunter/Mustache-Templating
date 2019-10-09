@@ -9,20 +9,37 @@ footer{
     background: #e2d1dd;
 }
 
-header.page-header {
-    background: no-repeat url(/media/yemgunter-logo.png);
-    display: flex;
-    height: 94px;
-    align-items: center;
-    color: #fff;
+.nav-section ul {
+    list-style: none;
+    background-color: #720072;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
-.nav-section{
+.nav-section li {
+    font-family: 'Arial';
+    font-size: 1.2em;
+    line-height: 60px;
+    height: 60px;
+    border-bottom: 1px solid #888;
+}
+
+.nav-section a {
+    text-decoration: none;
+    color: darkkhaki;
     display: block;
     transition: .3s background-color;
-    padding-top: 10px;
-    height: 60px;
-    background: #720072;
+}
+
+.nav-section a:hover {
+    background-color: peru;
+}
+
+.nav-section a.active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
 }
 
 .body-div{
@@ -73,4 +90,13 @@ header.page-header {
     .form-container{
             width: 60%;
     }
+
+    .nav li {
+        width: 120px;
+        border-bottom: none;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.4em;
+    }
+
 }
