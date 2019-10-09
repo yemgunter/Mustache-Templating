@@ -1,9 +1,9 @@
-/****************************************************
-Name: Yolanda Gunter
-Assignment: 04
-Purpose: Second part of two part assignment. Demonstrate understanding of back-end functionality for sending an email with the contact form.
-Notes: 2nd Part Due Sunday, Sept 25th 11:59pm
-******************************************************/
+/*
+ * Name: Yolanda Gunter
+ * Assignment: Coding 05
+ * Purpose: Templating & Making a 3+ Page Website
+ * Notes: Learning then implementing Mustache to create templates.
+ */
 
 "use strict";
 
