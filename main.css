@@ -18,22 +18,13 @@ body {
     text-align: center;
 }
 
-.box {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 600px;
-    padding: 20px;
-    box-sizing: border-box;
-    background: #fff;
-    border-radius: 4px;
-    box-shadow: 0 5px 15px rgba(0,0,0,5);
+
 }
 
 .box .imgBx {
     width: 150px;
     flex: 0 0 150px;
+    position: static;
 }
 
 .box .imgBx img {
