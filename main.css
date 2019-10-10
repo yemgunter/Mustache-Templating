@@ -11,9 +11,9 @@ footer{
 
 body {
     margin: 0;
-    background: #fff;
+    background: #cbc;
     font-family: 'Verdana', serif;
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
 }
 
@@ -51,6 +51,8 @@ ul {
      display: inline-block;
      margin-left: 80px;
      padding-top: 23px;
+
+     position: relative;
  }
 
 a {
@@ -60,9 +62,24 @@ a {
 }
 
 a:hover {
-    color: #000
+    color: #fff
 }
 
+a::before {
+    content: '';
+    display: block;
+    height: 5px;
+
+    background-color: #720072;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+}
+
+a::hover::before {
+    width: 100%;
+}
 .centered {
     text-align: center;
 }
