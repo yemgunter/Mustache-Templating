@@ -11,7 +11,7 @@ footer{
 
 body {
     margin: 0;
-    background: #ccc;
+    background: #fff;
     font-family: 'Verdana', serif;
     font-weight: 300;
     text-align: center;
@@ -54,7 +54,7 @@ ul {
  }
 
 a {
-    color: #444;
+    color: #720072;
     text-decoration: none;
     text-transform: uppercase;
 }
