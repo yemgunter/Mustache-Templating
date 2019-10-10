@@ -39,17 +39,12 @@ header::after {
 }
 
 .logo {
-    float: left;
     padding: 10px 0;
-}
-
-nav-section {
-    float: right;
 }
 
 ul {
     margin: 0;
-    padding: 0;
+    padding: 20px;
     list-style: none;
 }
  li {
@@ -58,11 +53,16 @@ ul {
      padding-top: 23px;
  }
 
-nav-section a {
+a {
     color: #444;
     text-decoration: none;
-    
+    text-transform: uppercase;
 }
+
+a:hover {
+    color: #000
+}
+
 .centered {
     text-align: center;
 }
