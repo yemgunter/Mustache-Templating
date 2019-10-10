@@ -9,6 +9,13 @@ footer{
     background: #e2d1dd;
 }
 
+body {
+    margin: 0;
+    background: #ccc;
+    font-family: 'Verdana', serif;
+    font-weight: 300;
+    text-align: center;
+}
 
 .body-div{
     text-align: center;
@@ -20,26 +27,45 @@ footer{
     margin: 0 auto;
 }
 
-.centered{
+header {
+    background: #a16691;
+    width: 100%;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding: 10px 0;
+}
+
+nav-section {
+    float: right;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ li {
+     display: inline-block;
+     margin-left: 80px;
+     padding-top: 23px;
+ }
+
+nav-section a {
+    color: #444;
+    text-decoration: none;
+    
+}
+.centered {
     text-align: center;
 }
- #form-div {
-     margin: 40px auto;
- }
-
- .form-input {
-     width: 100%;
- }
-
- .input-div {
-     margin-bottom: 10px;
- }
-
- .form-container {
-     text-align: center;
-     margin: 10px auto;
-     width: 100%;
- }
 
 
 /* This is the CSS for mobile devices. i.e. it is mobile-first */
