@@ -1,15 +1,44 @@
-/*
- * your comment header here
- */
+/**********************************************************************
+ * Name: Yolanda Gunter
+ * Assignment: Coding 05
+ * Purpose: Templating & Making a 3+ Page Website
+ * Notes: Learning then implementing Mustache to create templates.
+ **********************************************************************/
 
 footer{
-    background: #bdd7ff;
+    background: #e2d1dd;
 }
 
-.nav-section{
-    padding-top: 10px;
-    height: 60px;
-    background: #5681c4;
+body {
+    margin: 0;
+    padding: 0;
+    background: #cbc;
+    font-family: 'Verdana', serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+}
+
+.box .imgBx {
+    width: 150px;
+    flex: 0 0 150px;
+    position: static;
+}
+
+.box .imgBx img {
+    max-width: 100%;
+}
+
+.box .content {
+    padding-left: 20px;
+}
+
+.box .content h2 {
+    margin: 0;
+    padding-left: 0;
+    color: #720072;
 }
 
 .body-div{
@@ -17,6 +46,97 @@ footer{
     margin-top: 20px;
 }
 
-.centered{
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #a16691;
+    width: 100%;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    padding: 10px 0;
+}
+
+ul {
+    margin: 0;
+    padding: 20px;
+    list-style: none;
+}
+ li {
+     display: inline-block;
+     margin-left: 80px;
+     padding-top: 23px;
+
+     position: relative;
+ }
+
+a {
+    color: #720072;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #fff
+}
+
+a::before {
+    content: '';
+    display: block;
+    height: 5px;
+
+    background-color: #720072;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 200ms;
+}
+
+a:hover::before {
+    width: 100%;
+}
+
+.centered {
     text-align: center;
+}
+
+
+/* This is the CSS for mobile devices. i.e. it is mobile-first */
+
+#form-div {
+    margin: 40px auto;
+}
+
+.form-input {
+    width: 100%;
+}
+
+.input-div {
+    margin-bottom: 10px;
+}
+
+.form-container {
+    text-align: center;
+    margin: 10px auto;
+    width: 100%;
+
+}
+
+
+@media (min-width: 600px) {
+    .form-container{
+            width: 60%;
+    }
+
 }
