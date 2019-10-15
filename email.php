@@ -27,6 +27,12 @@ function main() {
         /* Test cleaned variable here. If we find and empty variable , we stop
          * processing because that means someone tried to send us something malicious or 
          * or incorrect.*/
+        
+        $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
+         if ($email === false) {
+               redirect('templates/error.html');
+         }
+        
         if (!empty($name) && !empty($email) && !empty($subject) && !empty($message)) {
             
             /* This forms the corect email headers to send an email */
