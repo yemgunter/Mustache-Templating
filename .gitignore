@@ -1,3 +1,7 @@
 
 .idea/coding05.iml
 *.xml
+.php_cs.cache
+composer.lock
+mustache.php
+vendor
